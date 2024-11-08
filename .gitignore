@@ -39,6 +39,7 @@ backend/.mvn
 backend/.vscode
 backend/target
 backend/src/main/resources/application.properties
+backend/src/test
 # Ignore any backup or generated files
 *.bak
 *.old
