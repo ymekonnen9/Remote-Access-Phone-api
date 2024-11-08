@@ -1,0 +1,67 @@
+# Ignore Maven or Gradle build files
+/target/
+out/
+build/
+
+# Ignore IntelliJ IDEA project files
+.idea/
+*.iml
+*.iws
+*.ipr
+
+# Ignore Eclipse project files
+.project
+.classpath
+.settings/
+
+# Ignore VS Code settings
+.vscode/
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# Ignore logs
+logs/
+*.log
+
+# Ignore temp files
+*.tmp
+*.swp
+*.swo
+
+# Ignore application configuration files with sensitive information
+application-*.properties
+application-*.yml
+.env
+backend/.idea
+backend/.mvn
+backend/.vscode
+backend/target
+backend/src/main/resources/application.properties
+# Ignore any backup or generated files
+*.bak
+*.old
+*.orig
+
+# Ignore JAR/WAR/EAR files
+*.jar
+*.war
+*.ear
+
+# Ignore specific files
+*.class
+*.DS_Store
+*.~*
+
+# Ignore Linux files
+**/*~
+
+# Ignore macOS files
+._*
+.Spotlight-V100
+.Trashes
+.DS_Store
+.AppleDouble
+.LSOverride
+Icon?
