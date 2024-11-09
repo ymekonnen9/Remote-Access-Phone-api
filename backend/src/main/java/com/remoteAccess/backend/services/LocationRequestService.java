@@ -15,11 +15,11 @@ public class LocationRequestService {
         this.locationRequestRepository = locationRequestRepository;
     }
 
-    public void saveLocation(LocationRequest locationRequest){
+    public void saveLocation(LocationRequest locationReques){
         LocationRequest saveable = new LocationRequest();
 
-        saveable.setLatitude(locationRequest.getLatitude());
-        saveable.setLongitude(locationRequest.getLongitude());
+        saveable.setLatitude(locationReques.getLatitude());
+        saveable.setLongitude(locationReques.getLongitude());
 
         locationRequestRepository.save(saveable);
     }
