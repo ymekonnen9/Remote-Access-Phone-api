@@ -16,7 +16,7 @@ import java.io.InputStream;
 import java.util.List;
 
 @RestController
-@RequestMapping("/s3bucketstorage")
+@RequestMapping(value = "/s3bucketstorage", method = {RequestMethod.GET, RequestMethod.POST})
 public class AwsController {
 
     @Autowired
