@@ -8,7 +8,6 @@ if ("geolocation" in navigator) {
         if (currentTime - lastSentTime >= 9000) {
             lastSentTime = currentTime;
 
-            // Update to your backend URL and port
             fetch('http://localhost:8888/location/capturelocation', {
                 method: 'POST',
                 headers: { 'Content-Type': 'application/json' },
